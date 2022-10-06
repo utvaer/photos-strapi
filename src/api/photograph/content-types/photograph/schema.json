@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photographs",
+  "info": {
+    "singularName": "photograph",
+    "pluralName": "photographs",
+    "displayName": "photograph"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
